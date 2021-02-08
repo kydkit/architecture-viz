@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
     margin: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(65, 65, 65);
 }
+
+.intro {
+    margin: 0 auto;
+    width: 50%;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
